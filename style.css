@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    background: url(https://images.unsplash.com/photo-1544306094-e2dcf9479da3) no-repeat;
+    background-size: cover;
+    background-image: url("1.jpg");
+}
+
+.clock {
+    font-size: 10rem;
+    border-radius: 6px;
+    text-align: center;
+    color: rgb(53, 19, 44);
+    font-weight: bold;
+    font-family: "Helvetica Neue",
+
+}
+
+.container {
+    width: 70%;
+    box-shadow: 1 1 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    background-color: rgba(193,123,84, .15);
+    
+    backdrop-filter: blur(5px);
+  }
